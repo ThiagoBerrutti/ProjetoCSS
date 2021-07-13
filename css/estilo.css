@@ -1,0 +1,129 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin:0;
+    margin-top: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size:cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+.hero-content h1{
+    padding-top: 135px;
+    font-size: 58px;
+    text-transform:uppercase;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p{
+    display:inline-block;
+    background-color: rgba(0,0,0,0.6);
+    padding:20px;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+}
+.hero nav ul{
+    text-align:right;
+    margin:10px 50px 0 0;
+}
+.nav-list li{ 
+    display: inline-block;
+    list-style:none;
+    border: 1px solid #ddd;
+    margin-left:10px;    
+}
+
+.nav-list a{
+    display:inline-block;
+    background-color:rgba(0,0,0,0.3);
+    padding:10px;
+    font-size:14px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration:none;
+}
+
+.nav-list a:hover{
+    background-color:rgba(0,0,0,0.5);
+}
+
+main{
+    width: 80%;
+    margin:auto;
+}
+
+.content-section{ 
+    background-color:white;
+    padding:15px;
+    overflow:auto;
+    margin:10px;
+}
+
+.card {
+    width: 32%;
+    height:100%;
+    float: left;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.card-1{
+    margin-right:2%;      
+}
+
+.card-2{
+    margin-right:2%;
+}
+
+.card img{
+    width: 100%;
+    display:block;
+}
+
+.card p{
+    background-color:#333;
+    text-align:left;    
+    text-transform:uppercase;
+    color:white;
+    margin:0;
+    padding:10px;
+    letter-spacing: 5px;    
+}
+
+.card a{
+    text-decoration:none;
+}
+
+.content-header{
+    background-color: #ddd;
+    border-bottom: 5px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content-header h2{
+    margin:0px;
+}
+
+.rodape {
+    background-color:rgb(109, 109, 109);
+    color: white;
+    height: 80px;
+    line-height:80px;
+    text-align: center;
+    margin-top:10px;
+    font-size:14px;
+    text-shadow: 2px 2px 2px black;    
+}
